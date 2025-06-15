@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indu B | My IITB Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77);
+      color: #f8f9fa;
+      line-height: 1.6;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(13, 27, 42, 0.95);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      z-index: 999;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    nav a {
+      color: #f8f9fa;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      color: #e0e1dd;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ced4da;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #adb5bd;
+    }
+    .block {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .block:hover {
+      transform: translateY(-5px);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.07);
+      border-radius: 10px;
+      padding: 1.5rem;
+      color: #dee2e6;
+    }
+    .skills span {
+      display: inline-block;
+      background: #6c757d;
+      padding: 0.4rem 1rem;
+      border-radius: 30px;
+      margin: 0.3rem;
+      font-size: 0.9rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #0d1b2a;
+      color: #adb5bd;
+    }
+    footer a {
+      color: #dee2e6;
+      text-decoration: underline;
+      margin: 0 0.5rem;
+    }
+    #guestbook {
+      margin-top: 2rem;
+    }
+    #guestbook input, #guestbook textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 8px;
+    }
+    #guestbook button {
+      background: #1b263b;
+      color: #f8f9fa;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .messages {
+      margin-top: 1.5rem;
+    }
+    .message {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Indu B</div>
+    <div>
+      <a href="#intro">Intro</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#academics">Academics</a>
+      <a href="#growth">Growth</a>
+      <a href="#events">Events</a>
+    </div>
+  </nav>
+
+  <header id="intro">
+    <h1>My IIT Bombay Journey</h1>
+  </header>
+
+  <section class="block">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Indu - undergraduate student at IIT Bombay, pursuing Metallurgical Engineering and Materials Science (MEMS). My journey so far has been a vibrant blend of academics, campus exploration, hostel life, and personal growth.
+
+While rooted in a core engineering field, I’m passionate about coding, data science, and web development — areas where I can combine creativity with logic. I enjoy working on projects that challenge me to learn new tools, think critically, and build with purpose.
+
+I’m constantly looking to grow through new experiences, meaningful collaborations, and opportunities that allow me to make an impact while evolving both technically and personally.</p>
+  </section>
+
+  <section id="timeline" class="block">
+    <h2>Hostel & Campus Life</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Hostel Life</h3>
+        <p>Hostel life at IIT Bombay has been one of the most memorable and defining parts of my journey so far. Living in a close-knit community, I’ve experienced the energy of late-night study sessions, spontaneous conversations in corridors, and the unmatched spirit of hostel fests. It’s a space where friendships are formed over shared meals, weekend chai breaks, and endless laughter. Beyond academics, hostel life has taught me independence, time management, and the joy of living among a diverse and vibrant group of peers. It’s not just where I stay — it’s where I’ve grown, learned, and made memories that I’ll carry with me long after IITB.</p>
+      </div>
+      <div class="card">
+        <h3>Campus Vibes</h3>
+        <p>The campus of IIT Bombay has a unique energy — a blend of academic intensity, creative expression, and natural beauty. From peaceful lakeside walks and green open spaces to the buzzing activity around lecture halls, labs, and student hubs, the environment is both inspiring and refreshing. Whether it’s participating in tech events, cultural festivals, or simply exploring the campus with friends, every day feels full of possibility. The vibrant mix of ideas, people, and passions makes the campus more than just a place to study — it’s a space to grow, connect, and thrive.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="academics" class="block">
+    <h2>Academics</h2>
+    <p> My academic journey in the MEMS department has helped me build a strong foundation in engineering and materials science. I’ve complemented this with hands-on experiences like the XLR8 RC Plane project, which enhanced my practical skills and teamwork.
+
+A key highlight was my industry visit to Sterlite Industries, where I got exposure to real-world manufacturing processes and large-scale industrial operations. Observing fiber-optic production and sustainable practices firsthand deepened my interest in how materials engineering is applied in industry..</p>
+  </section>
+
+  <section id="growth" class="block">
+    <h2>Learning & Growth</h2>
+    <p> I’m currently focused on learning coding and expanding my skills in Python, GitHub, HTML, CSS, JavaScript, and MATLAB, alongside exploring data analysis and core MEMS concepts. The learning goes beyond academics — it’s also about building consistency, discipline, and confidence. Whether it’s developing a website, analyzing datasets, or deepening technical understanding, every step is contributing to both academic and personal growth. </p>
+    <div class="skills">
+      <span>Python</span><span>GitHub</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MATLAB</span><span>Data Analysis</span>
+    </div>
+  </section>
+
+  <section id="events" class="block">
+    <h2>Events & Involvement</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Stage Performances & Creative Shows</h3>
+        <p>Campus events like the AIDs Dance Show and Halloween showcase were exciting to experience as part of the audience — filled with creativity and energy. I also had the opportunity to participate in Showstopper, which was a thrilling and memorable moment that helped me step out of my comfort zone and perform on stage.</p>
+      </div>
+      <div class="card">
+        <h3>Cultural Evenings & Traditions</h3>
+        <p>Nights like Dandiya, Salsa, and our Department Traditional Day were filled with fun, music, and community bonding. These events added a festive rhythm to campus life and made for joyful, shared experiences with friends.</p>
+      </div>
+      <div class="card">
+        <h3>Campus Fests</h3>
+        <p>Mood Indigo is IIT Bombay’s flagship cultural festival, filled with electrifying concerts, celebrity acts, creative competitions, and a vibrant campus atmosphere. Artists and singers from across the country bring the campus alive with unforgettable performances.
+Insti Nite serves as a musical preview of Mood Indigo — an evening featuring live singing and performances by guest artists, setting the tone for the excitement.
+
+</p>
+      </div>
+      <div class="card">
+        <h3>Tech & Innovation Events</h3>
+        <p>Festivals like Techfest and initiatives by E-Cell offered exposure to cutting-edge ideas, creativity, and entrepreneurship. From exhibitions to speaker sessions, these events sparked curiosity and highlighted the innovative spirit of the campus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guestbook" class="block">
+    <h2>Guestbook</h2>
+    <input type="text" id="name" placeholder="Your name">
+    <textarea id="message" rows="4" placeholder="Leave a message..."></textarea>
+    <button onclick="addMessage()">Submit</button>
+    <div class="messages" id="messages"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Indu B | 
+      <a href="https://www.iitb.ac.in/" target="_blank">IIT Bombay</a> |
+      <a href="https://www.iitb.ac.in/mems/en/" target="_blank">MEMS Dept</a> 
+   
+    </p>
+  </footer>
+
+  <script>
+    function addMessage() {
+      const name = document.getElementById('name').value;
+      const msg = document.getElementById('message').value;
+      if (name.trim() === '' || msg.trim() === '') return;
+      const messageBox = document.createElement('div');
+      messageBox.className = 'message';
+      messageBox.innerHTML = `<strong>${name}</strong><p>${msg}</p>`;
+      document.getElementById('messages').appendChild(messageBox);
+      document.getElementById('name').value = '';
+      document.getElementById('message').value = '';
+    }
+  </script>
+</body>
+</html>
