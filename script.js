@@ -1,5 +1,5 @@
 function showMessage() {
-  document.getElementById("message").innerText = "Thanks for clicking! IITB rocks!";
+  document.getElementById("message").innerText = "Thanks for clicking!";
 }
 // Smooth scroll for internal links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
